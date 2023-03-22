@@ -7,6 +7,21 @@
    box-sizing: border-box;
    outline: none; border:none;
  }
+*{
+   -webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+input,
+textarea,
+button,
+select,
+a{
+   -webkit-tap-highlight-color:rgha(0,0,0,0);
+}
+a:focus,
+a:visited,
+a:active{
+   outline:none;
+}
 body{
     background-color: #F3F3F3;
 }
